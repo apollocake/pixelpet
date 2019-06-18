@@ -1,0 +1,349 @@
+
+baby.png
+size: 256,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+baby_dead
+  rotate: false
+  xy: 2, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_dead
+  rotate: false
+  xy: 2, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 7
+baby_dead
+  rotate: false
+  xy: 2, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_dead
+  rotate: false
+  xy: 2, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+baby_dead
+  rotate: false
+  xy: 36, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+baby_dead
+  rotate: false
+  xy: 36, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+baby_dead
+  rotate: false
+  xy: 2, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+baby_dead
+  rotate: false
+  xy: 2, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 8
+baby_eat
+  rotate: false
+  xy: 36, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_eat
+  rotate: false
+  xy: 70, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_eat_candy
+  rotate: false
+  xy: 70, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+baby_eat_candy
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_eat_candy
+  rotate: false
+  xy: 36, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_eat_candy
+  rotate: false
+  xy: 70, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+baby_eat_candy
+  rotate: false
+  xy: 104, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+baby_eat_candy
+  rotate: false
+  xy: 2, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+baby_eat_meat
+  rotate: false
+  xy: 36, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_eat_meat
+  rotate: false
+  xy: 70, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_eat_meat
+  rotate: false
+  xy: 104, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+baby_eat_meat
+  rotate: false
+  xy: 138, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+baby_eat_meat
+  rotate: false
+  xy: 2, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+baby_eat_meat
+  rotate: false
+  xy: 36, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 8
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 11
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 9
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 7
+baby_idle
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 10
+baby_idle
+  rotate: false
+  xy: 104, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+baby_idle
+  rotate: false
+  xy: 138, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 12
+baby_move
+  rotate: false
+  xy: 172, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+baby_no
+  rotate: false
+  xy: 2, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_no
+  rotate: false
+  xy: 36, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_sick
+  rotate: false
+  xy: 70, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_sick
+  rotate: false
+  xy: 104, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_sick
+  rotate: false
+  xy: 138, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+baby_sick
+  rotate: false
+  xy: 172, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+baby_sick
+  rotate: false
+  xy: 206, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+baby_sick
+  rotate: false
+  xy: 36, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+baby_sick
+  rotate: false
+  xy: 70, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 7
+baby_sick
+  rotate: false
+  xy: 104, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 8
+baby_sleep
+  rotate: false
+  xy: 138, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+baby_sleep
+  rotate: false
+  xy: 172, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+baby_sleep
+  rotate: false
+  xy: 206, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+baby_sleep
+  rotate: false
+  xy: 70, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4

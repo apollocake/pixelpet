@@ -1,0 +1,209 @@
+
+santa_baby.png
+size: 128,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+santa_baby_dead
+  rotate: false
+  xy: 2, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+santa_baby_dead
+  rotate: false
+  xy: 2, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 7
+santa_baby_dead
+  rotate: false
+  xy: 2, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+santa_baby_dead
+  rotate: false
+  xy: 2, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+santa_baby_dead
+  rotate: false
+  xy: 36, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+santa_baby_dead
+  rotate: false
+  xy: 36, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+santa_baby_dead
+  rotate: false
+  xy: 2, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+santa_baby_dead
+  rotate: false
+  xy: 2, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 8
+santa_baby_eat
+  rotate: false
+  xy: 36, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+santa_baby_eat
+  rotate: false
+  xy: 70, 398
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 7
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 9
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 8
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 11
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+santa_baby_idle
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 10
+santa_baby_idle
+  rotate: false
+  xy: 36, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
+santa_baby_idle
+  rotate: false
+  xy: 70, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 12
+santa_baby_move
+  rotate: false
+  xy: 2, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+santa_baby_no
+  rotate: false
+  xy: 36, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+santa_baby_no
+  rotate: false
+  xy: 70, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+santa_baby_sleep
+  rotate: false
+  xy: 2, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+santa_baby_sleep
+  rotate: false
+  xy: 36, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+santa_baby_sleep
+  rotate: false
+  xy: 70, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+santa_baby_sleep
+  rotate: false
+  xy: 2, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4

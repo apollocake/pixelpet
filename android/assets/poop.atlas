@@ -1,0 +1,48 @@
+
+poop.png
+size: 64,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+poop
+  rotate: false
+  xy: 2, 332
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 1
+poop
+  rotate: false
+  xy: 2, 266
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 2
+poop
+  rotate: false
+  xy: 2, 200
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 3
+poop
+  rotate: false
+  xy: 2, 134
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 4
+poop
+  rotate: false
+  xy: 2, 68
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 5
+poop
+  rotate: false
+  xy: 2, 2
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: 6
