@@ -25,6 +25,7 @@ public class StageFactory {
     private static Stage stage;
     private static TextButton eatCandyButton;
     private static TextButton eatMeatButton;
+    private static TextButton flushButton;
     private static TextButton sickButton;
     private static TextButton poopButton;
     private static TextButton sleepButton;
@@ -240,6 +241,22 @@ public class StageFactory {
                 }
             });
 
+            flushButton = new TextButton("FLUSH", pixelTextButtonStyle);
+            flushButton.getLabel().setFontScale(fontScale, fontScale);
+            flushButton.setHeight(debugButtonDefaultHeight);
+            flushButton.setWidth(debugButtonDefaultWidth);
+            flushButton.setPosition(0,5*debugButtonDefaultHeight);
+            flushButton.addListener(new InputListener(){
+                @Override
+                public void touchUp (InputEvent event, float x, float y, int pointer, int button) {
+                    DrawablesFactory.GetBaby().SetState(Activity.FLUSH);
+                }
+                @Override
+                public boolean touchDown (InputEvent event, float x, float y, int pointer, int button) {
+                    return true;
+                }
+            });
+
             sickButton = new TextButton("SICK", pixelTextButtonStyle);
             sickButton.getLabel().setFontScale(fontScale, fontScale);
             sickButton.setHeight(debugButtonDefaultHeight);
@@ -281,6 +298,7 @@ public class StageFactory {
             debugButtonGroup.addActor(sickButton);
             debugButtonGroup.addActor(eatCandyButton);
             debugButtonGroup.addActor(eatMeatButton);
+            debugButtonGroup.addActor(flushButton);
             debugButtonGroup.addActor(poopButton);
             debugButtonGroup.addActor(sleepButton);
             debugButtonGroup.addActor(noButton);

@@ -7,24 +7,9 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.game.Events.Event;
 import com.mygdx.game.Events.EventHub;
-import com.mygdx.game.animations.DeadAnimation;
-import com.mygdx.game.animations.EatAnimation;
-import com.mygdx.game.animations.IAnimation;
-import com.mygdx.game.animations.IdleAnimation;
-import com.mygdx.game.animations.MoveAnimation;
-import com.mygdx.game.animations.NoAnimation;
-import com.mygdx.game.animations.PoopAnimation;
-import com.mygdx.game.animations.SickAnimation;
-import com.mygdx.game.animations.SleepAnimation;
-import com.mygdx.game.drawables.Baby;
-import com.mygdx.game.states.Dead;
-import com.mygdx.game.states.Eat;
-import com.mygdx.game.states.Idle;
-import com.mygdx.game.states.Move;
-import com.mygdx.game.states.No;
-import com.mygdx.game.drawables.Poop;
-import com.mygdx.game.states.Sick;
-import com.mygdx.game.states.Sleep;
+import com.mygdx.game.animations.*;
+import com.mygdx.game.drawables.*;
+import com.mygdx.game.states.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,6 +24,7 @@ public class DrawablesFactory {
     private static SleepAnimation sleepStateAnimation;
     private static NoAnimation noStateAnimation;
     private static MoveAnimation moveStateAnimation;
+    private static FlushAnimation flushAnimation;
 
     private static Baby baby;
     private static ArrayList<Poop> poopList = new ArrayList<Poop>();
@@ -57,9 +43,11 @@ public class DrawablesFactory {
             sleepStateAnimation = new SleepAnimation(new Animation<TextureRegion>(0.5f, babyAtlas.findRegions("baby_sleep"), Animation.PlayMode.LOOP));
             noStateAnimation = new NoAnimation(new Animation<TextureRegion>(0.5f, babyAtlas.findRegions("baby_no"), Animation.PlayMode.LOOP));
             moveStateAnimation = new MoveAnimation(new Animation<TextureRegion>(0.1f, babyAtlas.findRegions("baby_move"), Animation.PlayMode.LOOP));
+            flushAnimation = new FlushAnimation(new Animation<TextureRegion>(0.1f, babyAtlas.findRegions("baby_no"), Animation.PlayMode.NORMAL));
             IState sickState = new Sick(sickAnimation);
             IState eatMeatState = new Eat(eatMeatAnimation);
             IState eatCandyState = new Eat(eatCandyAnimation);
+            IState flushState = new Flush(flushAnimation);
             IState idleState = new Idle(idleStateAnimation);
             IState deadState = new Dead(deadStateAnimation);
             IState sleepState = new Sleep(sleepStateAnimation);
@@ -68,6 +56,7 @@ public class DrawablesFactory {
             IWellness wellness = new Wellness(StageFactory.GetWellnessLabel());
             baby = new Baby(
                     eatMeatState,
+                    flushState,
                     eatCandyState,
                     idleState,
                     sickState,
@@ -81,6 +70,7 @@ public class DrawablesFactory {
             EventHub.SubscribeToEvent(baby, Event.FINISHED_NO);
             EventHub.SubscribeToEvent(baby, Event.FINISHED_IDLE);
             EventHub.SubscribeToEvent(baby, Event.FINISHED_MOVE);
+            EventHub.SubscribeToEvent(baby, Event.FINISHED_FLUSH);
             drawableList.add(baby);
         }
         return baby;

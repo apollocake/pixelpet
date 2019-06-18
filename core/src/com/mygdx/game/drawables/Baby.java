@@ -30,6 +30,7 @@ public class Baby implements IPet, ICustomObserver, IDrawable {
     final float DISPLAY_HEIGHT = 600;
 
     public Baby(
+            IState flushState,
             IState eatMeatState,
             IState eatCandyState,
             IState idleState,
@@ -45,6 +46,7 @@ public class Baby implements IPet, ICustomObserver, IDrawable {
         this.customObservers = new ArrayList<ICustomObserver>();
         this.statesHashMap = new HashMap<Activity, IState>();
         this.statesHashMap.put(Activity.EAT_MEAT, eatMeatState);
+        this.statesHashMap.put(Activity.FLUSH, flushState);
         this.statesHashMap.put(Activity.EAT_CANDY, eatCandyState);
         this.statesHashMap.put(Activity.IDLE, idleState);
         this.statesHashMap.put(Activity.SICK, sickState);
@@ -105,16 +107,20 @@ public class Baby implements IPet, ICustomObserver, IDrawable {
 
     @Override
     public void update(Object sender, Event o) {
-        if(o.equals(Event.FINISHED_NO))
+        if(o.equals(Event.FINISHED_FLUSH))
         {
             this.SetState(Activity.IDLE);
         }
-        if(o.equals(Event.FINISHED_EAT))
+        else if(o.equals(Event.FINISHED_NO))
+        {
+            this.SetState(Activity.IDLE);
+        }
+        else if(o.equals(Event.FINISHED_EAT))
         {
             this.SetState(Activity.IDLE);
             this.wellness.SetHealth(this.wellness.GetHealth() + 1);
         }
-        if(o.equals(Event.FINISHED_IDLE))
+        else if(o.equals(Event.FINISHED_IDLE))
         {
             if(Math.random() > 0.5)
             {
@@ -125,7 +131,7 @@ public class Baby implements IPet, ICustomObserver, IDrawable {
                 this.MoveRightRandom();
             }
         }
-        if(o.equals(Event.FINISHED_MOVE))
+        else if(o.equals(Event.FINISHED_MOVE))
         {
             this.SetState(Activity.IDLE);
         }
